@@ -161,6 +161,6 @@ it('retrieves an enum instance or defaults when invalid', function () {
     expect(StringEnum::fromOrDefault('some', null))->toBeNull();
 });
 
-//todo StringEnum::random()
-//todo StringEnum::randomArray(maxItems: int)
-//todo StringEnum::randomCollection(maxItems: int)
+// todo StringEnum::random()
+// todo StringEnum::randomArray(maxItems: int)
+// todo StringEnum::randomCollection(maxItems: int)
